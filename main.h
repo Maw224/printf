@@ -8,7 +8,8 @@
  * @format: format
  * @f: function
  */
-typedef struct Funcs {
+typedef struct Funcs
+{
 	char *format;
 	int (*f)(va_list);
 } func_s;
